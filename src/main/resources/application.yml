@@ -1,0 +1,11 @@
+micronaut:
+  application:
+    name: nortluChefeApi
+datasources:
+  default:
+    url: jdbc:postgresql://localhost:5432/postgres
+    driverClassName: org.postgresql.Driver
+    username: postgres
+    password: ''
+jpa.default.properties.hibernate.hbm2ddl.auto: update
+redis.uri: redis://localhost
